@@ -5,8 +5,9 @@ description = "Automatically extract all exercises from a carpentries lesson."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-    {name = "Sven van der Burg", email = "s.vanderburg@esciencecenter.nl"},
+    {name = "Sven van der Burg"},
     {name = "Dafne van Kuppevelt"},
+    {name = "Djura Smits", email = "d.smits@esciencecenter.nl"},
 ]
 keywords = ["Extract", "Exercises"]
 classifiers = [
