@@ -1,0 +1,39 @@
+[project]
+name = "caex2"
+version = "1.0.0"
+description = "Automatically extract all exercises from a carpentries lesson."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Sven van der Burg", email = "s.vanderburg@esciencecenter.nl"},
+    {name = "Dafne van Kuppevelt"},
+]
+keywords = ["Extract", "Exercises"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Carpentries Instructors",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+dependencies = [
+    "click",
+    "gitpython",
+]
+
+[project.urls]
+Homepage = "https://github.com/esciencecenter-digital-skills/carpentries-exercises-extractor"
+
+[project.scripts]
+caex2 = "caex2.extractor:main"
+
+[project.optional-dependencies]
+publishing = [
+    "twine",
+    "wheel",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
