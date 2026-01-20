@@ -18,8 +18,8 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
 ]
 dependencies = [
-    "click",
-    "gitpython",
+    "click>=8.1.8",
+    "gitpython>=3.1.46",
 ]
 
 [project.urls]

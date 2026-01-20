@@ -35,8 +35,8 @@ publishing = [
 
 [package.metadata]
 requires-dist = [
-    { name = "click" },
-    { name = "gitpython" },
+    { name = "click", specifier = ">=8.1.8" },
+    { name = "gitpython", specifier = ">=3.1.46" },
     { name = "twine", marker = "extra == 'publishing'" },
     { name = "wheel", marker = "extra == 'publishing'" },
 ]
