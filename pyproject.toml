@@ -1,6 +1,6 @@
 [project]
 name = "caex2"
-version = "1.0.0"
+version = "1.0.1"
 description = "Automatically extract all exercises from a carpentries lesson."
 readme = "README.md"
 requires-python = ">=3.8"
